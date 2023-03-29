@@ -23,6 +23,26 @@ code {
 
 .cards {
   margin: 50px;
+
+}
+
+.logoFooter {
+  max-width: 100px;
+ 
+}
+
+.footer {
+  
+  background-color: #2F3D4D;
+  color: white;
+  
+
+}
+
+.logosRRSS {
+  max-width: 50px;
+  padding: 5px;
+  margin: 25px;
 }
 
 
