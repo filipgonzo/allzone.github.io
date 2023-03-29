@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function SubMenu() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <Container>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
