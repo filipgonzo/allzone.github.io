@@ -4,7 +4,7 @@ import SubMenu from "./Components/SubMenu";
 import Carrusel from "./Components/Carrusel";
 import Cards from "./Components/Cards";
 import "bootstrap/dist/css/bootstrap.min.css";
-import style from "./assets/css/style.css"
+import style from "./assets/css"
 
 
 function App() {

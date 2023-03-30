@@ -1,0 +1,10 @@
+.modalInicio{
+    text-align: center;
+    display: flex;
+}
+
+.modalInicio img{
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}

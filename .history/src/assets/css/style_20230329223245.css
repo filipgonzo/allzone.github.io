@@ -1,0 +1,25 @@
+.modal-content{
+    background-color: rgba(69, 81, 95, 0.752);
+}
+
+.modalInicio{
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalInicio img{
+    margin: 0;
+
+}
+
+.footerModal{
+    display: flex;
+    justify-content: space-around
+}
+
+.sesionRegistro{
+    background-color:rgb(125, 205, 239)
+}

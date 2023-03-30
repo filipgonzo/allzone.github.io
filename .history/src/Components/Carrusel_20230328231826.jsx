@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 
-function Carrusel() {
+function UncontrolledExample() {
   return (
     <Carousel>
       <Carousel.Item>
@@ -39,4 +39,4 @@ function Carrusel() {
   );
 }
 
-export default Carrusel;
+export default UncontrolledExample;

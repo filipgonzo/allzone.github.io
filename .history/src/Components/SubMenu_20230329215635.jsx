@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Button } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -18,7 +18,10 @@ function SubMenu() {
               <NavDropdown title="Menu" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="#action3"> Notebooks </NavDropdown.Item>
                 <NavDropdown.Item href="#action4"> Celulares </NavDropdown.Item>
-                <NavDropdown.Item href="#action5"> Televisores </NavDropdown.Item>
+                <NavDropdown.Item href="#action5">
+                  {" "}
+                  Televisores{" "}
+                </NavDropdown.Item>
               </NavDropdown>
             </Nav>
 
@@ -27,13 +30,14 @@ function SubMenu() {
 
               <Nav.Link>Mis Publicaciones</Nav.Link>
 
-              <Nav.Link onClick={handleShow} > Usuario </Nav.Link>
+              <Nav.Link> Usuario </Nav.Link>
 
+              <Button variant="outline-success">Iniciar Sesion</Button>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <VentanaSesion show={show} handleClose={handleClose}></VentanaSesion>
+      <VentanaSesion></VentanaSesion>
     </>
   );
 }
