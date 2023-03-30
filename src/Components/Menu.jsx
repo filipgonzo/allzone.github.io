@@ -9,7 +9,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Menu() {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar  expand="lg">
             <Container fluid>
                 <NavLink to="/">
                     <img className='logo' src="https://allzone.es/img/just-deal-logo-1604397301.jpg" alt="logo" /></NavLink>
